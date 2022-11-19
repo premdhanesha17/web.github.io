@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/6db61385cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="background">
+    <!-- <img src="C:\Users\LENOVO\Desktop\my personal portfolio\prem3.jpg"> -->
+    
+        <video autoplay loop muted play-inline width="100%" height="100%">
+            <source src="1418971679.mp4" type="video/mp4">
+        </video>
+<div class="nav">
+    <br/>
+    <br/>   
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+	<a class="a" href="#">HOME</a>
+    <a class="b" href="#">ABOUT ME</a>
+	<a class="c" href="#">CONTACT ME</a>
+</div><br/>content">
+	<div class="home">
+        <h2>I'M</h2>
+		<h1>DHANESHA PREM</h1>
+	    <h2>B.voc Student</h2>
+	</div>
+
+    <!-- aboutme details -->
+	<div class="aboutme">
+		<i><font size="5"><u>HELLO FRIENDS!!!</u></font></i><br/>
+        <br/>Welcome to the my world, I am dhanesha prem and i am ready for to do new task.To seek a position in a company that can launch my career and help me to build a strong skill set.</br><br/>
+
+        <i> <font size="5"><u>[] Education :</u></font> </i><br/><br/>
+        #BOYS HIGH SCHOOL<br/>
+        SSC-59%(2020)<br/>
+        HSC-48%(2022)<br/><br/>
+        #RK Univercity<br/>
+        B.voc(Information Technology)<br/><br/>
+
+        <i> <font size="5"><u>[]Skill :</u></font></i><br/><br/>
+        Basic HTML<br/><br/>
+
+        <i> <font size="5"><u>[]Language known :</u></font></i><br/><br/>
+        English<br/>
+        Gujarati<br/>
+        Hindi<br/><br/>
+
+        <i> <font size="5"><u>[]Interest :</u></font></i><br/><br/>
+        Web devlopment<br/>
+        Photography<br/>
+	</div>
+	
+	<div class="contactus">
+		<div class="contactform">
+			<form action="index.html" method="post"><br/>
+				<i><label>Frist name :</label>&nbsp;
+                <input type="text" name="" class="inputtext" placeholder ="Enter your frist name"><br/><br/><br/>
+                
+				<label>Last name : </label>&nbsp;
+                <input type="text" name="" class="inputtext" placeholder="Enter your last name"><br/><br/><br/>
+
+				<label>Your email :</label>&nbsp;
+                <input type="text" name="" class="inputtext" placeholder="Enter your email"><br/><br/><br/>
+                
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea class="yourmessages"> Your Messages...!!!</textarea><br/><br/><br/>
+				<input type="submit" name="" class="submitbutton" value="submit"><br/><br/><br/></i>
+
+            <div class="icon">
+               <a href="https://www.instagram.com/mr_dhanesha_17" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+
+               <a href="https://www.linkedin.com/feed/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+
+               <a href="https://www.facebook.com/prem.dhanesha.35/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+           </div>
+
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js\jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+        $('a').click(function(){
+            // alert("i am click");
+            var selected = $(this);
+            $('.a').fadeOut('active');
+            $('.a').fadeIn('active');
+            $(selected).fadeOut('active');
+            $(selected).fadeIn('active');
+        });
+
+        var $a = $('.a'),
+        $b = $('.b'),
+        $c = $('.c'),
+        $home = $('.home'),
+        $aboutme = $('.aboutme');
+        $contactus = $('.contactus');
+
+        $a.click(function(){
+            $home.fadeIn();
+            $aboutme.fadeOut();
+            $contactus.fadeOut();
+
+        });
+        $b.click(function(){
+        	$aboutme.fadeIn();
+        	$home.fadeOut();
+        	$contactus.fadeOut();
+        });
+
+        $c.click(function(){
+        	$contactus.fadeIn();
+        	$aboutme.fadeOut();
+        	$home.fadeOut();
+        });
+        
+	});
+
+</script>
+<!-- <div class="background"> -->
+	<!-- <video src="C:\Users\india\Desktop\website\images\Pexels Videos 1720220.mp4" autoplay muted loop width="100%" height="100%"> -->
+	<!-- </video> -->
+</div>
+
+</div>
+</body>
+</html>
